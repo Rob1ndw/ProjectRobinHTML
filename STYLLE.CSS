@@ -5,6 +5,7 @@ body {
     line-height: 1.6;
   }
   
+  
   header {
     background-color: #333;
     color: white;
@@ -52,7 +53,9 @@ body {
   
   .grid {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .film {
