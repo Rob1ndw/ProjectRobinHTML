@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header.admin-header {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header.admin-header nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+  }
+  
+  header.admin-header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  .film-list {
+    margin: 2rem 0;
+  }
+  
+  .film-row {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .film-row img {
+    width: 100px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .film-title {
+    flex: 1;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .film-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .film-actions button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .film-actions .edit {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .film-actions .edit:hover {
+    background-color: #0056b3;
+  }
+  
+  .film-actions .delete {
+    background-color: #DC3545;
+    color: white;
+  }
+  
+  .film-actions .delete:hover {
+    background-color: #a71d2a;
+  }
+  
+  .add-film {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .add-button {
+    display: inline-block;
+    background-color: #28A745;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
