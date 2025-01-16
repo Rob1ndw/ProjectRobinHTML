@@ -112,7 +112,7 @@ body {
   .nav-item {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
-  
+  /* Zorgt er voor dat er een kleurtje komt als je er over gaat */
   .nav-item:hover {
     background-color: gray;
     color: black;
