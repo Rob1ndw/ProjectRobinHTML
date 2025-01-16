@@ -1,11 +1,10 @@
 body {
-    background: url(foto/film-achtergrond-collage_23-2149876017.avif) no-repeat center center fixed; 
-    background-size: cover; 
-    color: white; 
+    background: url(foto/film-achtergrond-collage_23-2149876017.avif) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
     margin: 0;
     padding: 0;
   }
-  
   
   header {
     background-color: #333;
@@ -69,55 +68,57 @@ body {
   .film h3 {
     margin: 0.5rem 0;
   }
+  
+  /* Navigatie Stijlen */
   .navigatie {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     background-color: black;
-    padding: 1rem 0; 
-}
-
-.navigatie ul {
+    padding: 1rem 0;
+  }
+  
+  .navigatie ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     align-items: center;
     gap: 15px;
-}
-
-.navigatie li {
+  }
+  
+  .navigatie li {
     margin: 0;
-}
-
-.navigatie a {
+  }
+  
+  .navigatie a {
     color: white;
     text-decoration: none;
-    padding: 1rem 2rem; 
-    font-size: 1rem; 
-    text-transform: uppercase; 
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     border-right: 1px solid white;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.navigatie a:last-child {
+  }
+  
+  .navigatie a:last-child {
     border-right: none;
-}
-
-.navigatie a:hover {
-    background-color: gray; 
-    color: black; 
-}
-
-.nav-item {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.nav-item:hover {
+  }
+  
+  .navigatie a:hover {
     background-color: gray;
     color: black;
-}
-
-.Meer-info {
+  }
+  
+  .nav-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-item:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  .Meer-info {
     display: inline-block;
     background-color: #ff6600;
     color: #fff;
@@ -127,20 +128,56 @@ body {
     font-size: 14px;
     text-align: center;
     transition: background-color 0.3s ease;
-}
-
-.Meer-info :hover {
+  }
+  
+  .Meer-info :hover {
     background-color: #e65c00;
-}
-.black-bar{
+  }
+  
+  .black-bar {
     background-color: #000;
     color: white;
     text-align: center;
     padding: 2rem 0;
     margin: 0;
-}
-.black-bar h2{
+  }
+  
+  .black-bar h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     margin: 0;
-}
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .navigatie ul {
+      display: block; 
+      text-align: center; 
+    }
+  
+    .navigatie ul li {
+      margin: 10px 0;
+    }
+  
+    .navigatie a {
+      padding: 1rem; 
+      font-size: 1.2rem; 
+      border-right: none; 
+    }
+  
+    nav h1 {
+      font-size: 1.2rem; 
+      margin-right: 0; 
+      display: block; 
+      text-align: center; 
+    }
+  }
+  
+  
