@@ -1,0 +1,47 @@
+.navigatie {
+    display: flex;
+    justify-content: center; /* Centreer de navigatie in de balk */
+    background-color: black;
+    padding: 1rem 0; /* Extra padding voor een grotere navigatiebalk */
+}
+
+.navigatie ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 15px; /* Zorg voor grotere ruimte tussen de links */
+}
+
+.navigatie li {
+    margin: 0;
+}
+
+.navigatie a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem; /* Maak de knoppen groter */
+    font-size: 1rem; /* Verhoog de lettergrootte */
+    text-transform: uppercase; /* Hoofdletters */
+    border-right: 1px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigatie a:last-child {
+    border-right: none; /* Verwijder de rechterrand van het laatste item */
+}
+
+.navigatie a:hover {
+    background-color: gray; /* Achtergrondkleur bij hover */
+    color: black; /* Tekstkleur bij hover */
+}
+
+.nav-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: gray;
+    color: black;
+}
